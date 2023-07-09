@@ -1,0 +1,86 @@
+gazebo_ros_control:
+  pid_gains:
+    # shoulder_pan_joint:
+    #   p: 100.0
+    #   i: 0.00
+    #   d: 1.0
+    #   # i_clamp: 0.2
+    #   # antiwindup: false
+    #   # publish_state: true
+    # shoulder_lift_joint:
+    #   p: 100.0
+    #   i: 0.00
+    #   d: 1.0
+    #   # i_clamp: 0.2
+    #   # antiwindup: false
+    #   # publish_state: true
+    # elbow_joint:
+    #   p: 100.0
+    #   i: 0.00
+    #   d: 1.0
+    #   # i_clamp: 0.2
+    #   # antiwindup: false
+    #   # publish_state: true
+    # wrist_1_joint:
+    #   p: 100.0
+    #   i: 0.00
+    #   d: 1.0
+    #   # i_clamp: 0.2
+    #   # antiwindup: false
+    #   # publish_state: true
+    # wrist_2_joint:
+    #   p: 100.0
+    #   i: 0.00
+    #   d: 1.0
+    #   # i_clamp: 0.2
+    #   # antiwindup: false
+    #   # publish_state: true
+    # wrist_3_joint:
+    #   p: 100.0
+    #   i: 0.00
+    #   d: 1.0
+    #   # i_clamp: 0.2
+    #   # antiwindup: false
+    #   # publish_state: true
+    gripper_joint:
+      p: 0.1
+      i: 0.0
+      d: 0.0
+      i_clamp: 0.0
+      antiwindup: false
+      publish_state: true
+    l_finger_2_joint:
+      p: 0.1
+      i: 0.0
+      d: 0.0
+      i_clamp: 0.0
+      antiwindup: false
+      publish_state: true
+    l_finger_passive_joint:
+      p: 0.1
+      i: 0.0
+      d: 0.0
+      i_clamp: 0.0
+      antiwindup: false
+      publish_state: true
+    r_finger_1_joint:
+      p: 0.1
+      i: 0.0
+      d: 0.0
+      i_clamp: 0.0
+      antiwindup: false
+      publish_state: true
+    r_finger_2_joint:
+      p: 0.1
+      i: 0.0
+      d: 0.0
+      i_clamp: 0.0
+      antiwindup: false
+      publish_state: true
+    r_finger_passive_joint:
+      p: 0.1
+      i: 0.0
+      d: 0.0
+      i_clamp: 0.0
+      antiwindup: false
+      publish_state: true
